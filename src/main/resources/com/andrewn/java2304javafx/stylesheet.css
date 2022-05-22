@@ -1,0 +1,14 @@
+.custom-button {
+    -fx-font: 16px "Serif";
+    -fx-padding: 10;
+    -fx-background-color: CYAN;
+}
+
+.custom-button1 {
+    -fx-opacity: 0.80;
+}
+
+.custom-label {
+    -fx-background-color: YELLOW;
+}
+

@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<HBox alignment="CENTER"
-      maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-      prefHeight="400.0" prefWidth="600.0" spacing="50.0"
-      xmlns="http://javafx.com/javafx/11.0.2"
-      xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.andrewn.java2304javafx.HelloController">
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity"
+      minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="400.0" prefWidth="600.0"
+      spacing="50.0" xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.andrewn.java2304javafx.HelloController">
    <children>
       <Label fx:id="welcomeText" />
-      <Button fx:id="helloButton" mnemonicParsing="false"
+      <Button fx:id="helloButton"
+              mnemonicParsing="false"
               onAction="#onHelloButtonClick"
               onMouseEntered="#onMouseEntered"
-              onMouseExited="#onMouseExited" text="Нажми меня"/>
+              onMouseExited="#onMouseExited"
+              text="Нажми меня!" />
    </children>
 </HBox>

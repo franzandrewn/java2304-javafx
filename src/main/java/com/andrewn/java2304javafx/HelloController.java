@@ -7,10 +7,11 @@ import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 
 public class HelloController {
-    @FXML
-    public Label welcomeText;
+
     @FXML
     public Button helloButton;
+    @FXML
+    public Label welcomeText;
 
     private int buttonClickCount = 0;
 

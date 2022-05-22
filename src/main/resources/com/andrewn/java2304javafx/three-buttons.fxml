@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="30.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.andrewn.java2304javafx.ThreeButtonsController">
+   <children>
+      <Button fx:id="firstButton" mnemonicParsing="false" onAction="#onFirstButtonClick" onKeyPressed="#keyPressedFirstButton" text="1 кнопка" />
+      <Button fx:id="secondButton" mnemonicParsing="false" onAction="#onSecondButtonClick" text="2 кнопка" />
+      <Button fx:id="thirdButton" mnemonicParsing="false" onAction="#onThirdButtonClick" text="3 кнопка" />
+   </children>
+</VBox>
